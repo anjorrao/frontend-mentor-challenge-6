@@ -1,0 +1,15 @@
+@import '../base/base';
+@import '../base/breakpoints';
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: $regular-font;
+	color: $white;
+	font-family: $font-family-inter;
+	background-color: $dark-blue;
+}
+
+.text-primary {
+	color: $violet !important;
+}
