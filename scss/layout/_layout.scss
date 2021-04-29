@@ -2,6 +2,8 @@
 @import '../base/breakpoints';
 
 .wrapper {
+	padding: 0 15px;
+
 	@include media-breakpoint-up(md) {
 		display: flex;
 		height: 100vh;
@@ -10,7 +12,7 @@
 	}
 
 	@include media-breakpoint-down(md) {
-		padding: 100px 0;
+		padding: 70px 0;
 		width: 90%;
 		margin: 0 auto;
 	}

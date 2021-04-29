@@ -33,9 +33,6 @@
   .d-flex .second-card picture {
     position: relative;
     display: flex; }
-    @media (max-width: 767.98px) {
-      .d-flex .second-card picture {
-        height: 200px; } }
     .d-flex .second-card picture::before {
       content: ' ';
       position: absolute;
@@ -67,6 +64,7 @@
 /*======== Colors ============*/
 /*========== Font =============*/
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   font-size: 15px;
@@ -77,25 +75,37 @@ body {
 .text-primary {
   color: #aa5cdb !important; }
 
+.attribution {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  padding: 10px; }
+  .attribution a {
+    color: #aa5cdb; }
+
 /*======== Colors ============*/
 /*========== Font =============*/
-@media (min-width: 768px) {
-  .wrapper {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center; } }
-@media (max-width: 767.98px) {
-  .wrapper {
-    padding: 100px 0;
-    width: 90%;
-    margin: 0 auto; } }
-@media (max-width: 767.98px) {
-  .wrapper .d-flex {
-    flex-wrap: wrap;
-    flex-direction: column-reverse; } }
-@media (min-width: 768px) {
-  .wrapper .d-flex {
-    width: 1110px; } }
+.wrapper {
+  padding: 0 15px; }
+  @media (min-width: 768px) {
+    .wrapper {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center; } }
+  @media (max-width: 767.98px) {
+    .wrapper {
+      padding: 70px 0;
+      width: 90%;
+      margin: 0 auto; } }
+  @media (max-width: 767.98px) {
+    .wrapper .d-flex {
+      flex-wrap: wrap;
+      flex-direction: column-reverse; } }
+  @media (min-width: 768px) {
+    .wrapper .d-flex {
+      width: 1110px; } }
 
 /*# sourceMappingURL=style.css.map */

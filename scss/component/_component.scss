@@ -52,10 +52,6 @@
 			position: relative;
 			display: flex;
 
-			@include media-breakpoint-down(md) { 
-				height: 200px;
-			}
-
 			&::before {
 				content: ' ';
 				position: absolute;

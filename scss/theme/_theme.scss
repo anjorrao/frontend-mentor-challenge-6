@@ -2,6 +2,7 @@
 @import '../base/breakpoints';
 
 body {
+	position: relative;
 	margin: 0;
 	padding: 0;
 	font-size: $regular-font;
@@ -12,4 +13,17 @@ body {
 
 .text-primary {
 	color: $violet !important;
+}
+
+.attribution {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: $white;
+	padding: 10px;
+
+	a {
+		color: $violet;
+	}
 }
